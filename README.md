@@ -12,6 +12,7 @@ vgg16_cifar10.load_state_dict(torch.load('vgg16_cifar10_32ep_1.pt'))
 Для обучения FGE требуется запустить соответствующий скрипт ...FGE... из директории, в которой лежат соответствующие чекпоинты ```...32ep_<n_model>.pt```. Перед этим требуется в той же директории создать пустые директории
 ```
 <model>_cifar<n_classes>_fge_<n_model>
+
 <model> from {vgg16, resnet}
 <n_classes> from {10, 100}
 ``` 
